@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CET Question Bank & Mock Tests</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/favicon.svg">
+  <meta name="theme-color" content="#0f766e" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <img src="assets/logo.svg" alt="CET" class="logo" />
+    <nav>
+      <a href="#/" data-link>Dashboard</a>
+      <a href="#/browse" data-link>Browse</a>
+      <a href="#/practice" data-link>Practice</a>
+      <a href="#/analytics" data-link>Analytics</a>
+      <a href="#/pyq" data-link>PYQ</a>
+      <a href="#/test/new" data-link>Start Test</a>
+    </nav>
+  </header>
+  <main id="app" class="container" aria-live="polite"></main>
+  <footer class="app-footer">
+    <small>© <span id="yy"></span> CET Practice. MIT License.</small>
+  </footer>
+
+  <script src="data/questions-inline.js"></script>
+  <script src="js/bundle.js"></script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>
