@@ -1,0 +1,11 @@
+{
+  "name": "CET Question Bank & Mock Tests",
+  "short_name": "CET Practice",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
